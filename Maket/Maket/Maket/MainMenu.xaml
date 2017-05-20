@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Maket.MainMenu">
+    <Grid x:Name="MainLayout">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+
+        </Grid.RowDefinitions>
+
+        <Button x:Name="reg" Grid.Column="0" Grid.ColumnSpan="3" Grid.Row="0" Text="Log" />
+        <Button x:Name="fuel" Grid.Column="0" Grid.ColumnSpan="3" Grid.Row="2" Text="Топливо" />
+        <Button x:Name="abouUs" Grid.Column="0" Grid.ColumnSpan="3" Grid.Row="3" Text="О нас"/>
+        <Button x:Name="support" Grid.Column="0" Grid.ColumnSpan="3" Grid.Row="4" Text="Техподдержка" />
+        <Button x:Name="Contact" Grid.Column="0" Grid.ColumnSpan="3" Grid.Row="5" Text="О компании" />
+
+
+
+    </Grid>
+</ContentPage>

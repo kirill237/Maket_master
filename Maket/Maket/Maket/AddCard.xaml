@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Maket.AddCard">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Image Grid.Row="0" Grid.RowSpan="5" Source="iEJs8639eRY.jpg"/>
+        <Entry  FontSize="Large"  Grid.Row="5"  PlaceholderColor="#000000" Placeholder="Дата действия карты" Keyboard="Numeric" HorizontalTextAlignment="Center" TextChanged="Entry_TextChanged" x:Name="entry_dt"/>
+        <Entry  FontSize="Large"  Grid.Row="6"  PlaceholderColor="#000000" Placeholder="CCV" Keyboard="Numeric" HorizontalTextAlignment="Center" TextChanged="Data_entry"  x:Name="entry_CCV"/>
+        <Entry  FontSize="Large"  Grid.Row="3"  PlaceholderColor="#000000" Placeholder="0000-0000-0000-0000" Keyboard="Numeric" HorizontalTextAlignment="Center" TextChanged="CCV_entry" x:Name="entry"/>
+        <Button Grid.Row="7" Text="Добавить карту"  BackgroundColor="#AA0000" Grid.RowSpan="2" Clicked="AddCRD"/>
+        <Button Grid.Row="9" Text="Назад" Clicked="Button_Clicked" BackgroundColor="#AA0000" Grid.RowSpan="2"/>
+    </Grid>
+</ContentPage>

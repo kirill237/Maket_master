@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Maket.ViborSposoba">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <Button x:Name="Geo" Grid.Column="0" Grid.Row="2" Text="Выбрать автоматически"  />
+        <Button x:Name="a"   Grid.Column="1" Grid.Row="2" Text="Выбрать из списка" />
+        <Image x:Name="Img"  Source="Map.jpg"  Grid.Column="0" Grid.Row="0"  Grid.ColumnSpan="2" />
+        <Label x:Name="Lab"  Text="ул. Автодорожная, 7А  8-924-597-70-71"  Grid.Column="0" Grid.Row="1"  Grid.ColumnSpan="2"  />
+
+
+    </Grid>
+    
+    
+</ContentPage>

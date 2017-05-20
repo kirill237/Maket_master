@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Maket.contacts">
+
+    <Grid x:Name="contac">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+
+        <Image x:Name="img"  Source="logo.png"  Grid.Column="0" Grid.Row="0" />
+        <Label x:Name="Lab"  Grid.Column="0" Grid.Row="1"  Text="   Юридический адрес:678214, Республика Саха (Якутия), Вилюйский улус, п. Кысыл-Сыр, ул. Ленина, 4. Банковские реквизиты: ОГРН 1021401062187 ИНН 1435032049 КПП 144950001 р/с 40702810976000002979, филиал 8603 Якутское отделение Сбербанка РФ г. Якутск к/с 30101810400000000609 БИК 049805609 Почтовый адрес: 677015, Республика Саха (Якутия), город Якутск, улица Петра Алексеева, 76 Телефон: +7 (4112) 401-401  Факс: +7 (4112) 401-592 E-mail: JSC-YATEC@yatec.ru Представительство в г. Москва: 119435, Москва, Б. Саввинский пер., 10а Телефон: +7 (495) 662-37-70 Факс: +7 (495) 775-06-60"/>
+
+
+    </Grid>
+    
+</ContentPage>

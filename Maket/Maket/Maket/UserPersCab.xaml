@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Maket.UserPersCab">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Label Grid.Row="0" Grid.Column="1" Text="Иван Иванович" FontSize="Medium" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"/>
+        <Label Grid.Row="1" Grid.Column="1" Text="16581375@mail.ru" FontSize="Medium"  VerticalTextAlignment="Center" HorizontalTextAlignment="Center"/>
+        <Label Grid.Row="2" Grid.Column="1" Text="8-800-555-35-35" FontSize="Medium" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"/>
+        <Image Grid.Row="0" Grid.Column="0" Grid.RowSpan="3" Source="GG.jpg" />
+        <Image Grid.Row="3" Grid.Column="0" Grid.RowSpan="2" Grid.ColumnSpan="2" Source="iEJs8639eRY.jpg" />
+        <Label Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="2" Text="0123 4567 8901 2345" FontSize="Medium"  VerticalTextAlignment="Start"  HorizontalTextAlignment="Center" x:Name="Cred"/>
+        <Button Grid.Row="5" Grid.Column="0" Grid.ColumnSpan="2" Text="Добавить карту" x:Name="Addcrda"/>
+        <Button Grid.Row="6" Grid.Column="0" Grid.ColumnSpan="2" Text="Изменить данные" x:Name="chang" />
+        <Button Grid.Row="7" Grid.Column="0" Grid.ColumnSpan="2" Text="Назад" x:Name="back"/>
+    </Grid>
+</ContentPage>

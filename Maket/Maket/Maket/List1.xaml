@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Maket.List1">
+    <Grid x:Name="ListLayout">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <Button x:Name="Button1" Clicked="OnButtonClicked"  Grid.Column="0" Grid.Row="0" Text="ул. Автодорожная, 7А  8-924-597-70-71" />
+        <Button x:Name="Button2" Clicked="OnButtonClicked"  Grid.Column="0" Grid.Row="1" Text="ул. Петра Алексеева, 70/2 8-924-597-70-72" />
+        <Button x:Name="Button3" Clicked="OnButtonClicked"  Grid.Column="0" Grid.Row="2" Text="ул. Чернышевского 1  8-924-597-70-73"/>
+        <Button x:Name="Button4" Clicked="OnButtonClicked"  Grid.Column="0" Grid.Row="3" Text="ул. Циолковского, 24/1   8-924-597-70-74" />
+        <Button x:Name="Button5" Clicked="OnButtonClicked"  Grid.Column="0" Grid.Row="4" Text="Сергеляхское шоссе, 4 км  8-924-597-70-75" />
+
+    </Grid>
+</ContentPage>
